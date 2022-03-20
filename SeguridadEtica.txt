@@ -1,0 +1,120 @@
+lab 1.
+primera tarea revisar.
+
+ intitle:login site:eccouncil.or
+
+cache: This operator allows you to view cached version of the web page. [cache:www.google.com]- Query returns the cached version of the website www.google.com
+
+allinurl: This operator restricts results to pages containing all the query terms specified in the URL. [allinurl: google career]—Query returns only pages containing the words “google” and “career” in the URL
+
+inurl: This operator restricts the results to pages containing the word specified in the URL [inurl: copy site:www.google.com]—Query returns only pages in Google site in which the URL has the word “copy”
+
+allintitle: This operator restricts results to pages containing all the query terms specified in the title. [allintitle: detect malware]—Query returns only pages containing the words “detect” and “malware” in the title
+
+inanchor: This operator restricts results to pages containing the query terms specified in the anchor text on links to the page. [Anti-virus inanchor:Norton]—Query returns only pages with anchor text on links to the pages containing the word “Norton” and the page containing the word “Anti-virus”
+
+allinanchor: This operator restricts results to pages containing all query terms specified in the anchor text on links to the page. [allinanchor: best cloud service provider]—Query returns only pages in which the anchor text on links to the pages contain the words “best,” “cloud,” “service,” and “provider”
+
+link: This operator searches websites or pages that contain links to the specified website or page. [link:www.googleguide.com]—Finds pages that point to Google Guide’s home page
+
+related: This operator displays websites that are similar or related to the URL specified. [related:www.certifiedhacker.com]—Query provides the Google search engine results page with websites similar to certifiedhacker.com
+
+info: This operator finds information for the specified web page. [info:gothotel.com]—Query provides information about the national hotel directory GotHotel.com home page
+
+location: This operator finds information for a specific location. [location: 4 seasons restaurant]—Query give you results based around the term 4 seasons restaurant
+
+
+actividad 2 
+
+https://citizenevidence.amnestyusa.org
+sacar informacion metadatos de cideos mediante esta herramienta.
+
+
+actividad 3
+
+https://www.searchftps.net/ 
+https://globalfilesearch.com
+http://www.freewareweb.com
+
+Actividad 4
+
+https://www.shodan.io
+https://www.thingful.net
+https://censys.io
+
+
+lab 2.
+
+actividad 1
+
+https://www.netcraft.com
+https://pentest-tools.com
+
+actividad 2
+
+https://www.peekyou.com
+
+actividad 3
+corre en parrot 
+theHarvester -d microsoft.com -l 200 -b baidu # objetico microsoft.com se saca la informacion de Baidu
+
+actividad 4 
+en thor poner esto
+http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page
+http://fakeidskhfik46ux.onion/
+http://nare7pqnmnojs2pg.onion/
+
+actividad 5
+https://censys.io/domain?q=   verifica sistemas operativos de las maquinas
+
+lab 3.
+actividad 1
+theHarvester -d eccouncil -l 200 -b linkedin
+
+actividad 2
+sherlock busca personas en las diferentes redes sociales en este caso satya nadella
+
+python3 sherlock.py satya nadella
+
+https://www.social-searcher.com
+herramienta para buscar informacion.
+
+actividad 3
+https://followerwonk.com/analyze 
+https://hootsuite.com
+
+lab 4
+actividad 1
+ping xxx -l 1470 -i 19 -n 5 -f
+				* l longitud 
+				* i ttl
+				* n cantidad de paquetes
+				* f fracmentado
+
+actividad 2
+https://centralops.net      * rastrea el servidor.
+https://website.informer.com
+https://portswigger.net
+https://www.owasp.org
+
+
+
+acitvidad 3 
+instalar webdataExtractor   # descargar e instalar.
+	crear la nueva sesion 
+	seleccionar objetivo
+	click en start
+
+
+ actividad 4 
+copiar un sitio web en espejo  ## super genial
+      	httrack-3.49.2.exe
+
+
+actividad 5
+	parror linux
+	cewl -d 2 -m 5 www.certifiedhacker.com
+	busca lista de empleados        #no entendi bien   
+
+
+
